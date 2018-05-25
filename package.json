@@ -1,21 +1,6 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "kurien philip",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kurienphilip/kurienphilip.github.io.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kurienphilip/kurienphilip.github.io/issues"
-  },
-  "homepage": "https://github.com/kurienphilip/kurienphilip.github.io#readme",
   "devDependencies": {
     "browser-sync": "^2.24.4",
     "gulp": "^3.9.1",
