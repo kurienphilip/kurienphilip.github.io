@@ -1,9 +1,0 @@
-{
-  "name": "portfolio",
-  "version": "1.0.0",
-  "devDependencies": {
-    "browser-sync": "^2.24.4",
-    "gulp": "^3.9.1",
-    "gulp-sass": "^4.0.1"
-  }
-}
