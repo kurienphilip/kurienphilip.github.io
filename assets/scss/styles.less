@@ -169,34 +169,6 @@ nav {
     position: fixed;
 }
 
-.parallaxFixed {
-    /* Set a specific height */
-    min-height: 550px;
-    background-image: url('assets/img/DSC03127.jpg');
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.parallelogram01 {
-    background: #FF8000;
-    width: 100px;
-    height: 250px;
-    -webkit-transform: skew(20deg);
-    -moz-transform: skew(20deg);
-    -o-transform: skew(20deg);
-}
-
-.parallelogram02 {
-    background: #FF4500;
-    box-shadow: -3px 0px 20px #000000;
-    width: 100px;
-    height: 250px;
-    -webkit-transform: skew(20deg);
-    -moz-transform: skew(20deg);
-    -o-transform: skew(20deg);
-}
 .namelogo{
   margin:70px 0;
   margin-left: -42px;
@@ -335,33 +307,6 @@ span.contact {
 .project_box:hover .content {
     bottom: 0%;
 }
-
-.parallelogram{
-    background: gray;
-    height: 30px;
-    -webkit-transform: skew(20deg);
-    -moz-transform: skew(20deg);
-    -o-transform: skew(20deg);
-}
-
-.parallelogram03 {
-    background: #FF8000;
-    width: 10px;
-    height: 30px;
-    -webkit-transform: skew(20deg);
-    -moz-transform: skew(20deg);
-    -o-transform: skew(20deg);
-}
-
-.parallelogram04 {
-    background: #FF4500;
-    box-shadow: -3px 0px 20px #000000;
-    width: 10px;
-    height: 30px;
-    -webkit-transform: skew(20deg);
-    -moz-transform: skew(20deg);
-    -o-transform: skew(20deg);
-}
 .imgMail{
   width: 200px;
   height: 200px;
@@ -421,9 +366,7 @@ div.container a
 	background: #fff;
 	content: '';
 	opacity: 0.2;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
+    @include transition(all 0.3s);
 	pointer-events: none;
 }
 
@@ -471,3 +414,11 @@ div.container a
 	-moz-transform: rotate(0deg) translateX(50%);
 	transform: rotate(0deg) translateX(50%);
 }
+
+@mixin transition($transition) {
+    -webkit-transition: $transition;
+    -moz-transition: $transition;
+    -ms-transition: $transition;
+    transition: $transition;
+}
+  
