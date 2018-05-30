@@ -1,5 +1,18 @@
+nav {
+  height: 70px;
+  background-color: #002060;
+  top: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+  text-align: right;
+}
+
 #homeSec {
+  margin-top: 70px;
   height: 100vh;
+  min-height: 600px;
+  background-color: #fff;
 }
 
 #aboutSec #headerSec {
@@ -24,16 +37,6 @@ body,
 html {
   height: 100%;
   margin: 0;
-}
-
-nav {
-  height: 70px;
-  background-color: #002060;
-  top: 0;
-  right: 0;
-  left: 0;
-  position: fixed;
-  text-align: right;
 }
 
 nav a {
@@ -193,7 +196,7 @@ nav a {
 
 /* end flexbox */
 .background-img {
-  background: linear-gradient(-45deg, #002060, #ffffff, #002060);
+  background: linear-gradient(-45deg, #002060, #fff, #002060);
   background-size: 400% 400%;
   -webkit-animation: gradient-background 5s ease infinite;
   -moz-animation: gradient-background 5s ease infinite;

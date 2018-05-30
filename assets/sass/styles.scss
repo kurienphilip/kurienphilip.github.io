@@ -1,7 +1,21 @@
 $primarycolor: #002060;
+$tertiarycolor: #fff;
+
+nav {
+    height: 70px;
+    background-color: $primarycolor;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    text-align: right;
+}
 
 #homeSec{
+    margin-top: 70px;
     height: 100vh; 
+    min-height: 600px;
+    background-color: $tertiarycolor;
 }
 
 #aboutSec{
@@ -15,7 +29,7 @@ $primarycolor: #002060;
         border-radius: 5px;
         min-height: 500px;
         box-shadow: 2px 2px 5px gray;
-        background-color: #fff;
+        background-color: $tertiarycolor;
     }
 }
 
@@ -31,22 +45,12 @@ html {
     margin: 0;
 }
 
-nav {
-    height: 70px;
-    background-color: $primarycolor;
-    top: 0;
-    right: 0;
-    left: 0;
-    position: fixed;
-    text-align: right;
-}
-
 nav a {
 	position: relative;
 	display: inline-block;
 	margin: 15px;
 	outline: none;
-	color: #fff;
+	color: $tertiarycolor;
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -68,7 +72,7 @@ nav a {
 	position: absolute;
 	width: 45px;
 	height: 1px;
-	background: #fff;
+	background: $tertiarycolor;
 	content: '';
 	opacity: 0.1;
     -webkit-transition: all 0.3s;
@@ -199,7 +203,7 @@ nav a {
 /* end flexbox */
   
 .background-img{
-    background: linear-gradient(-45deg, $primarycolor, #ffffff, $primarycolor);
+    background: linear-gradient(-45deg, $primarycolor, $tertiarycolor, $primarycolor);
     background-size: 400% 400%;
     -webkit-animation: gradient-background 5s ease infinite;
     -moz-animation: gradient-background 5s ease infinite;
