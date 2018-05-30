@@ -1,4 +1,5 @@
 $primarycolor: #002060;
+$secondarycolor:#3F51B5;
 $tertiarycolor: #fff;
 
 nav {
@@ -12,7 +13,6 @@ nav {
 }
 
 #homeSec{
-    margin-top: 70px;
     height: 100vh; 
     background-color: $tertiarycolor;
 }
@@ -202,7 +202,7 @@ nav a {
 /* end flexbox */
   
 .background-img{
-    background: linear-gradient(-45deg, $primarycolor, $tertiarycolor, $primarycolor);
+    background: linear-gradient(-45deg, $primarycolor, $secondarycolor, $primarycolor);
     background-size: 400% 400%;
     -webkit-animation: gradient-background 5s ease infinite;
     -moz-animation: gradient-background 5s ease infinite;

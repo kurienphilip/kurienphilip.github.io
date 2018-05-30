@@ -9,7 +9,6 @@ nav {
 }
 
 #homeSec {
-  margin-top: 70px;
   height: 100vh;
   background-color: #fff;
 }
@@ -195,7 +194,7 @@ nav a {
 
 /* end flexbox */
 .background-img {
-  background: linear-gradient(-45deg, #002060, #fff, #002060);
+  background: linear-gradient(-45deg, #002060, #3F51B5, #002060);
   background-size: 400% 400%;
   -webkit-animation: gradient-background 5s ease infinite;
   -moz-animation: gradient-background 5s ease infinite;
