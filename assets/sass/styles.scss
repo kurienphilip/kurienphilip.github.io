@@ -1,10 +1,10 @@
-$primarycolor: #002060;
-$secondarycolor:#3F51B5;
+$primarycolor: #3F51B5;
+$secondarycolor:#002060;
 $tertiarycolor: #fff;
 
 nav {
     height: 70px;
-    background-color: $primarycolor;
+    background-color: $tertiarycolor;
     top: 0;
     right: 0;
     left: 0;
@@ -13,7 +13,7 @@ nav {
 }
 
 #homeSec{
-    height: 100vh; 
+    height: 90vh; 
     background-color: $tertiarycolor;
 }
 
@@ -71,7 +71,7 @@ nav a {
 	position: absolute;
 	width: 45px;
 	height: 1px;
-	background: $tertiarycolor;
+	background: $primarycolor;
 	content: '';
 	opacity: 0.1;
     -webkit-transition: all 0.3s;
@@ -202,7 +202,8 @@ nav a {
 /* end flexbox */
   
 .background-img{
-    background: linear-gradient(-45deg, $primarycolor, $secondarycolor, $primarycolor);
+    background: linear-gradient(-45deg, $primarycolor, $secondarycolor, $tertiarycolor, $primarycolor);
+    // background: linear-gradient(-45deg, #002060, #2196F3, #3F51B5, #00BCD4,#002060);
     background-size: 400% 400%;
     -webkit-animation: gradient-background 5s ease infinite;
     -moz-animation: gradient-background 5s ease infinite;
