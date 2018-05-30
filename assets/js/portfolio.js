@@ -1,4 +1,4 @@
-angular.module('portfolioApp', ['ngRoute'])
+angular.module('portfolioApp', ['ngRoute','ngMaterial', 'ngMessages'])
   .controller('PortfolioController', function() {
     var vm = this;
     vm.todos = [
