@@ -10,9 +10,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.10/angular-route.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     
+    <script src="assets/js/app.run.js"></script>
     <script src="assets/js/portfolio.js"></script>
 </head>
-<body ng-app="portfolioApp">
+<body ng-app="app">
+        @RenderBody()
     <div ng-controller="PortfolioController as portfolio">
         <section id="homeSec">
             <nav class="menu-effect">
