@@ -7,7 +7,7 @@ $primarycolor: #002060;
 #aboutSec{
     #headerSec{
         height: 300px;
-        background-color: $primarycolor;
+        //background-color: $primarycolor;
     }
     #detailSec{
         margin:-60px auto 20px;
@@ -198,3 +198,25 @@ nav a {
 }
 /* end flexbox */
   
+.background-img{
+    background: linear-gradient(-45deg, #ffffff, #002060);
+    background-size: 400% 400%;
+    -webkit-animation: gradient-background 5s ease infinite;
+    -moz-animation: gradient-background 5s ease infinite;
+    animation: gradient-background 5s ease infinite;
+}
+@-webkit-keyframes gradient-background {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes gradient-background {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes gradient-background { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
