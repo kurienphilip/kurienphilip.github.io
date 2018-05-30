@@ -1,31 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="portfolioApp">
 <head>
     <title>Kurien Philip</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" href="assets/css/styles.css" />
 
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.10/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/less.min.js"></script>
 </head>
 <body>
-    <section id="homeSec">
-        <nav class="menu-effect">
-            <a>ABOUT</a>
-            <a>SKILLS</a>
-            <a>PROJECTS</a>
-            <a href="assets/resume/Kurien Full Stack Developer.pdf" target="_blank">RESUME</a>
-            <a>CONTACT</a>
-        </nav>
-    </section>
-    <section id="aboutSec">
-            <section id="headerSec">
-        
-            </section>
-            <section id="detailSec">
-        
-            </section>
-    </section>
+    <div ng-controller="PortfolioController as portfolio">
+        <section id="homeSec">
+            <nav class="menu-effect">
+                <a>ABOUT</a>
+                <a>SKILLS</a>
+                <a>PROJECTS</a>
+                <a href="assets/resume/Kurien Full Stack Developer.pdf" target="_blank">RESUME</a>
+                <a>CONTACT</a>
+            </nav>
+        </section>
+        <section id="aboutSec">
+                <section id="headerSec">
+                    <span>{{portfolio.remaining()}} of {{portfolio.todos.length}} remaining</span>
+                </section>
+                <section id="detailSec">
+            
+                </section>
+        </section>
+    </div>
 </body>
 </html>
