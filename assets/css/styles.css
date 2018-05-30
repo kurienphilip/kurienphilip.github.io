@@ -42,7 +42,7 @@ nav a {
   display: inline-block;
   margin: 15px;
   outline: none;
-  color: #fff;
+  color: #3F51B5;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -194,7 +194,7 @@ nav a {
 
 /* end flexbox */
 .background-img {
-  background: linear-gradient(-45deg, #3F51B5, #002060, #fff, #3F51B5);
+  background: linear-gradient(-45deg, #002060, #2196F3, #3F51B5, #00BCD4, #002060);
   background-size: 400% 400%;
   -webkit-animation: gradient-background 5s ease infinite;
   -moz-animation: gradient-background 5s ease infinite;
