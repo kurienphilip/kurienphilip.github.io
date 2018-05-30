@@ -4,6 +4,7 @@
 
 #aboutSec #headerSec {
   height: 300px;
+  background-color: #002060;
 }
 #aboutSec #detailSec {
   margin: -60px auto 20px;
@@ -192,7 +193,7 @@ nav a {
 
 /* end flexbox */
 .background-img {
-  background: linear-gradient(-45deg, #ffffff, #002060);
+  background: linear-gradient(-45deg, #002060, #ffffff, #002060);
   background-size: 400% 400%;
   -webkit-animation: gradient-background 5s ease infinite;
   -moz-animation: gradient-background 5s ease infinite;
