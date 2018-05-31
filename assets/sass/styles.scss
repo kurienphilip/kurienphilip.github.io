@@ -12,8 +12,12 @@ nav {
     text-align: right;
 }
 
-#homeSec{
-    height: 90vh; 
+#homeTop{
+    height: 50vh; 
+    background-color: $tertiarycolor;
+}
+#homeBottom{
+    height: 40vh; 
     background-color: $tertiarycolor;
 }
 
