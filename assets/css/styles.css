@@ -239,5 +239,21 @@ nav a {
     background-position: 0% 50%;
   }
 }
+.thank-header {
+  font-size: 80px;
+  font-weight: 200;
+  font-family: "Roboto", sans-serif;
+  color: #3F51B5;
+  margin-bottom: 100px;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.pfButton {
+  color: #fff;
+  background-color: #3F51B5;
+}
 
 /*# sourceMappingURL=assets/css/styles.css.map */

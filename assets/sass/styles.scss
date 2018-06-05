@@ -1,6 +1,7 @@
 $primarycolor: #3F51B5;
 $secondarycolor:#002060;
 $tertiarycolor: #fff;
+$font: 'Roboto', sans-serif;
 
 nav {
     height: 70px;
@@ -60,7 +61,7 @@ nav a {
 	font-weight: 400;
 	text-shadow: 0 0 1px rgba(255,255,255,0.3);
     font-size: 16px;
-    font-family: 'Roboto', sans-serif;
+    font-family: $font;
 }
 
 /* Effect 14: border switch */
@@ -227,4 +228,21 @@ nav a {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
+}
+
+.thank-header{
+    font-size: 80px;
+    font-weight: 200;
+    font-family: $font;
+    color: $primarycolor;
+    margin-bottom: 100px; 
+}
+
+.center-align{
+    text-align:  center;
+}
+
+.pfButton{
+    color: $tertiarycolor;
+    background-color: $primarycolor;
 }
