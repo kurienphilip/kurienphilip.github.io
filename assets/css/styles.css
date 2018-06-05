@@ -40,6 +40,7 @@ body,
 html {
   height: 100%;
   margin: 0;
+  background-color: #fff;
 }
 
 nav a {
@@ -254,6 +255,11 @@ nav a {
 .pfButton {
   color: #fff;
   background-color: #3F51B5;
+}
+
+.pfButton:hover {
+  color: #fff;
+  background-color: #002060;
 }
 
 /*# sourceMappingURL=assets/css/styles.css.map */
