@@ -252,4 +252,9 @@ nav a {
   text-align: center;
 }
 
+.pf-button {
+  width: 100px;
+  min-width: 100px;
+}
+
 /*# sourceMappingURL=assets/css/styles.css.map */
