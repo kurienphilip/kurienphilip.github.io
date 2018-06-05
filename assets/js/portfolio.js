@@ -26,6 +26,7 @@ angular.module('portfolioApp', ['ngRoute','ngMaterial', 'ngMessages'])
         .primaryPalette('portfolioPalette')
         .accentPalette('portfolioPalette')
         .backgroundPalette('portfolioPalette')
+      }])
   .controller('PortfolioController', function() {
     var vm = this;
     vm.todos = [
