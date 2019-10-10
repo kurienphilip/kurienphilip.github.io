@@ -1,5 +1,4 @@
 angular.module('portfolioApp', ['ngRoute','ngMaterial', 'ngMessages'])
-// Define and set Burgess color pallete as the default theme
 .config(['$mdThemingProvider', function ($mdThemingProvider) {
     $mdThemingProvider.definePalette('portfolioPalette', {
         '50': 'ffffff', // background

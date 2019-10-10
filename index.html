@@ -21,9 +21,15 @@
     <script src="assets/js/portfolio.js"></script>
 </head>
 <body ng-app="portfolioApp">
-        <!-- @RenderBody() -->
-    <div ng-controller="PortfolioController as portfolio">
-        <nav class="menu-effect">
+    <div id="container" ng-controller="PortfolioController as portfolio">
+            <div id="container2">
+                    <div class="box one"><div>1</div></div>
+                    <div class="box two"><div>2</div></div>
+                    <div class="box three"><div>3</div></div>
+                    <div class="box four"><div>Last</div></div>
+                  </div>
+
+        <!-- <nav class="menu-effect">
             <a>ABOUT</a>
             <a>SKILLS</a>
             <a>PROJECTS</a>
@@ -93,7 +99,7 @@
                         <input type="email" name="_replyto">
                     </md-input-container>          
                     <md-input-container>
-                        <textarea name="message" placeholder="Your message"></textarea>
+                        <textarea name="message" placeholder="Your message" style="height: 200px;"></textarea>
                     </md-input-container>  
                     <input type="hidden" name="_next" value="//kurienphilip.github.io/thanks.html" />
                     <input type="text" name="_gotcha" style="display:none" />                
@@ -104,7 +110,7 @@
                     contactform.setAttribute('action', '//formspree.io/' + 'kurienphilip' + '@' + 'outlook' + '.' + 'com');
                 </script>
             </div>
-        </section>
+        </section> -->
     </div>
 </body>
 </html>
