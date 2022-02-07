@@ -162,6 +162,13 @@ nav {
   max-width: 650px;
 }
 
+.contactCtr{
+  min-height: 550px;
+  background-position: left;
+  background-repeat: no-repeat;
+  margin-left: 93px;
+}
+
 .parallaxFixed {
   min-height: 550px;
   background-position: right;
@@ -500,3 +507,9 @@ textarea {
 button {
   margin-left: .5em;
 }*/
+
+@media only screen and (max-width: 1040px ) {
+  .quoteContainer {
+    display: none;
+  }
+}
