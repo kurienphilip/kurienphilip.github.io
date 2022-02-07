@@ -72,11 +72,6 @@
     flex-grow: 4;
 }
 
-.divider{
-  margin: 0 5px;
-  color: #0A66C2;
-  margin-top: -3px;
-}
 
 /* end flexbox */
 
@@ -87,47 +82,26 @@
     font-family: sans-serif;
     text-decoration: none;
     cursor: pointer;
-    border-bottom: 3px solid #0A66C2;
+    border-bottom: 3px solid #d61515;
 }
 
 .menuItem {
-    color:  #0A66C2;
+    color: rgba(255, 255, 255, 0.78);
     margin: 30px 20px;
     height: 38px;
     font-family: sans-serif;
     text-decoration: none;
     cursor: pointer;
 }
-.footermenu{
-	width:auto;
-	margin-top:25px;
-	text-align:right;
-}
-
-.footermenuItem {
-    color: rgb(120, 120, 126);
-    height: 28px;
-    font-family: sans-serif;
-    text-decoration: none;
-    cursor: pointer;
-    font-size: 12px;
-}
-.footermenuItem:hover {
-    color: #014e9b;
-}
-
 
 .primarycolor{
   color:#d61515;
 }
 
 .menuItem:hover {
-    border-bottom: 3px solid #014e9b;
+    border-bottom: 3px solid #d61515;
 }
-.ga {
-  height: 35px;
-  width: 25px;
-}
+
 body,
 html {
     height: 100%;
@@ -136,40 +110,25 @@ html {
 
 nav {
     height: 70px;
-    /* background-color:rgb(255 255 255 / 78%); */
+    background-color: rgba(21, 20, 20, 0.7);
     top: 0;
     right: 0;
     left: 0;
     position: fixed;
 }
-.expLblHdr{
-  width: 135px;
-}
-.expLbl{
- font-size: 60px;
- color: #0A66C2;
-}
-.expDescLbl{
- font-size: 23px;
- color: #0A66C2;
-}
-.expHdr{  
-  padding: 35px;
-  color: #0A66C2;
-  font-family: 'Roboto';
-  font-size: 21px;
-  font-weight: 600;
-  max-width: 650px;
-}
 
 .parallaxFixed {
-  min-height: 550px;
-  background-position: right;
-  background-repeat: no-repeat;
-  margin-right: 93px;
+    /* Set a specific height */
+    min-height: 550px;
+    background-image: url('assets/img/DSC03127.jpg');
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .parallelogram01 {
-    background: #014e9b;
+    background: #a71e1e;
     width: 100px;
     height: 250px;
     -webkit-transform: skew(20deg);
@@ -178,7 +137,7 @@ nav {
 }
 
 .parallelogram02 {
-    background: #0A66C2;
+    background: #d61515;
     box-shadow: -3px 0px 20px #000000;
     width: 100px;
     height: 250px;
@@ -201,7 +160,7 @@ nav {
 }
 
 .categoryLbl {
-    color: #0a66c2;
+    color: #d61515;
     font-size: 28px;
     font-family: sans-serif;
     margin: 0 10px;
@@ -216,20 +175,14 @@ nav {
 }
 
 .thoughtsLbl {
-    color: #0A66C2;
+    color: #d61515;
     font-size: 28px;
     font-family: 'Kaushan Script', cursive;
-    text-align: center;
 }
 .quoteLbl {
-    color: #fff;
-    font-size: 50px;
-    font-family: 'Roboto', cursive;
-    font-weight: 600;
-}
-.quoteLblSub {
-    color: #fff;
-    font-family: 'Raleway', sans-serif;
+    color: #FFF;
+    font-size: 28px;
+    font-family: 'Kaushan Script', cursive;
 }
 
 .descriptions{
@@ -242,22 +195,15 @@ nav {
 }
 
 .quoteImg {
-    color: #0A66C2;
+    color: #FFF;
     margin: 0 10px;
     font-size: 18px;
 }
 
 .quoteContainer {
-  /* padding-top: 180px;
-  width: 350px;
-  margin-left: 10%; */
-  
-  padding-top: 130px;
-  width: 520px;
-  background-position: top;
-  background-repeat: no-repeat;
-  height: 330px;
-  padding-left: 0;
+    padding-top: 180px;
+    width: 540px;
+    margin-left: 80px;
 }
 
 .bannerContainer {
@@ -268,34 +214,26 @@ nav {
 }
 
 .skill_box {
-  margin: 0 20%;
+  margin: 0 10%;
   margin-top: 100px;
   padding: 10px;
 }
-.skill_box i,
-.skill_box div{
+.skill_box i{
     border: 1px solid #fff;
     box-shadow: 2px 2px 5px grey;
     padding: 20px;
 }
-.skill_box i:hover,
-.skill_box div:hover{
-  box-shadow: 3px 3px 5px grey;
-}
+
 .about_me_box {
   font-family: 'Raleway', sans-serif;
   text-align: justify;
-  margin: 30px 19%;
+  margin: 30px 15%;
   line-height: 30px;
 }
 .contact_box {
   text-align: center;
   margin: 80px 90px 30px 90px;
   line-height: 30px;
-  font-size: 25px;
-}
-span.contact {
-  font-size: 25px;
 }
 .skill_icon {
   padding: 30px 0 20px 30px;
@@ -347,7 +285,7 @@ span.contact {
 }
 
 .parallelogram03 {
-    background: #014e9b;
+    background: #a71e1e;
     width: 10px;
     height: 30px;
     -webkit-transform: skew(20deg);
@@ -356,7 +294,7 @@ span.contact {
 }
 
 .parallelogram04 {
-    background: #0A66C2;
+    background: #d61515;
     box-shadow: -3px 0px 20px #000000;
     width: 10px;
     height: 30px;
@@ -367,87 +305,6 @@ span.contact {
 .imgMail{
   width: 200px;
   height: 200px;
-}
-footer{
-    height: 200px;
-    background-color: rgba(158, 158, 158, 0.1);
-    box-shadow: 2px -3px 3px rgba(128, 128, 128, 0.58);
-}
-.footerlevel{
-	margin:0 50px;
-	border-bottom:1px solid rgba(0, 0, 0, 0.51);
-	height:150px;
-}
-.footerLogo{
-	margin: 50px 25px;
-}
-.copyright{
-    font-family: 'Raleway', sans-serif;
-	margin-top:5px;
-	color:rgba(0, 0, 0, 0.51);
-}
-
-
-/* fill button */
-
-.fill-button {
-  position: relative;
-  overflow:hidden;
-  display:inline-block;
-  width:150px;
-  height:30px;
-  border:1px solid #fff;
-  text-align:center;
-  box-sizing:border-box;
-  color:#fff;
-  text-decoration:none;
-  cursor: pointer;
-  line-height:28px;
-  font-family: 'arial';
-}
-.fill-button > span {
-  display:block;
-}
-.fill-button > .fill-button-hover:after, .fill-button > .fill-button-hover:before {
-  position:absolute;
-  top:0;
-  opacity:0;
-  display:block;
-  content:"";
-  width:0;
-  height:30px;
-}
-.fill-button > .fill-button-hover:after {
-  background-color:#d6eff6;
-  transform:skewX(45deg);
-  transform-origin:center center;
-  transition:all .35s, opacity .4s;
-  left:50%;
-}
-.fill-button .fill-button-hover:before {
-  background-color:#0a66c2;
-  transition:opacity 1s;
-}
-
-.fill-button .fill-button-text {
-  z-index:1;
-  position:relative;
-  color:#fff;
-  transition:color .35s;
-}
-.fill-button:hover .fill-button-text {
-  color:#0a66c2;
-}
-.fill-button .fill-button-hover:hover:after {
-  opacity:1;
-  left:2%;
-  width:95%;
-  transform:skewX(45deg);
-}
-.fill-button > .fill-button-hover:hover:before {
-  opacity: 1;
-  left: 0;
-  width:100%;
 }
 /*
 form {
