@@ -30,6 +30,10 @@ $(document).ready(function() {
     }
 });
 
+$(document).scroll(function () {
+  var $nav = $(".navbar-fixed-top");
+  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+});
 
   $(".navigation a").on('click', function(event) {
     if (this.hash !== "") {

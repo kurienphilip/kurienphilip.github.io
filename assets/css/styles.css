@@ -322,6 +322,10 @@ span.contact {
   width: 180px;
   margin-top: 80px;
 }
+.navbar-fixed-top.scrolled{
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
 
 .project_box .content {
     background: rgba(255, 255, 255, 0.9);
