@@ -318,8 +318,9 @@ span.contact {
     position: relative;
 }
 .projectImg {
-  min-height: 300px;
-  width: 400px;
+  max-height: 300px;
+  width: 180px;
+  margin-top: 80px;
 }
 
 .project_box .content {
