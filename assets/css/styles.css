@@ -145,7 +145,7 @@ nav {
 .expLblHdr{
   width: 135px;
 }
-.expLbl{
+#expLbl{
  font-size: 60px;
  color: #0A66C2;
 }
@@ -325,6 +325,7 @@ span.contact {
 .navbar-fixed-top.scrolled{
   background-color: #fff !important;
   transition: background-color 200ms linear;
+  box-shadow: 1px 2px 5px #c5c5c5;
 }
 
 .project_box .content {
