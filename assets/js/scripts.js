@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  document.getElementById("lblYear").innerHTML = new Date().getFullYear();
 	var about = $('#aboutMe').offset().top;
 	var project = $('#project').offset().top;
 	var skill = $('#skill').offset().top;
@@ -30,7 +31,7 @@ $(document).ready(function() {
     }
 });
 
-animateValue("expLbl", 1, 14, 1000);
+animateValue("expLbl", 1, (new Date().getFullYear() - 2008), 1000);
 
 $(document).scroll(function () {
   var $nav = $(".navbar-fixed-top");

@@ -399,6 +399,9 @@ footer{
 	margin-top:5px;
 	color:rgba(0, 0, 0, 0.51);
 }
+.copyright > span{
+  margin-left: 5px;;
+}
 
 
 /* fill button */
